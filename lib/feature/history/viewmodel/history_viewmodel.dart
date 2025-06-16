@@ -5,11 +5,11 @@ import 'package:pet_adopt_posha/feature/home/model/pet_model.dart';
 final historyRepositoryProvider = Provider<HistoryRepository>((ref) {
   return HistoryRepository();
 });
-final historyViewModelProvider = AsyncNotifierProvider<PetListNotifier, List<Pet>>(
+final historyViewModelProvider = AutoDisposeAsyncNotifierProvider<PetListNotifier, List<Pet>>(
   PetListNotifier.new,
 );
 
-class PetListNotifier extends AsyncNotifier<List<Pet>> {
+class PetListNotifier extends AutoDisposeAsyncNotifier<List<Pet>> {
   late final HistoryRepository _repo;
 
   @override
