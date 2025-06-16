@@ -13,7 +13,7 @@ class Pet {
   final String description;
   final String category;
 
-  Pet( {
+  Pet({
     required this.id,
     required this.name,
     required this.age,
@@ -35,7 +35,7 @@ class Pet {
       name: json['name'] as String,
       age: json['age'] as int,
       price: (json['price'] as num).toDouble(),
-      imageUrl: convertPlaceholderUrl(json['imageUrl']),
+      imageUrl: json['imageUrl'],
       gender: json['gender'] as String,
       color: json['color'] as String,
       breed: json['breed'] as String,
@@ -43,7 +43,7 @@ class Pet {
       weightKg: (json['weightKg'] as num).toDouble(),
       isAdopted: json['isAdopted'] as bool,
       description: json['description'] as String,
-      category: json['category'] as String, 
+      category: json['category'] as String,
     );
   }
 
@@ -123,9 +123,5 @@ class Pet {
         'gender: $gender, color: $color, breed: $breed, vaccinated: $vaccinated, '
         'weightKg: $weightKg, isAdopted: $isAdopted, description: $description, '
         'category: $category}';
-  }
-
-  static String convertPlaceholderUrl(String originalUrl) {
-    return "https://cdn.shopify.com/s/files/1/0086/0795/7054/files/Golden-Retriever.jpg?v=1645179525";
   }
 }
