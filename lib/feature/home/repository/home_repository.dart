@@ -18,7 +18,7 @@ Future<List<Pet>> fetchPets({
     Query query = _firestore.collection('pets').limit(_limit);
 
     if (category != null && category.toLowerCase() != 'all') {
-      query = query.where('category', isEqualTo: category.toLowerCase());
+      query = query.where('category', isEqualTo: category.toLowerCase().split('s').first.toLowerCase());
     }
 
     if (isNextPage && _lastDoc != null) {
