@@ -9,7 +9,7 @@ A beautiful and interactive Flutter app that allows users to explore, adopt, and
 | Platform       | Link                                                                 |
 |----------------|----------------------------------------------------------------------|
 | 🌐 Web App     | [pet-adopt-adarsh-pasho.web.app](https://pet-adopt-adarsh-pasho.web.app/) |
-| 📱 Android APK | [Download APK](https://drive.google.com/drive/u/1/folders/1IH9KDwubmLAD4SRW52nM-O0olvvW0MrG)         |
+| 📱 Android APK | [Download APK](https://drive.google.com/drive/folders/1IH9KDwubmLAD4SRW52nM-O0olvvW0MrG?usp=sharing)         |
 
 ---
 
