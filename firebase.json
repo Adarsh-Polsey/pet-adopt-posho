@@ -1,0 +1,42 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pet-adopt-adarsh-pasho",
+          "appId": "1:186452207340:android:20341c4418997c615da7c9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pet-adopt-adarsh-pasho",
+          "configurations": {
+            "android": "1:186452207340:android:20341c4418997c615da7c9",
+            "web": "1:186452207340:web:c900882f8137f6145da7c9"
+          }
+        }
+      }
+    }
+  }
+}

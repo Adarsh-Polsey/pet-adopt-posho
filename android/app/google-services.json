@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186452207340",
+    "project_id": "pet-adopt-adarsh-pasho",
+    "storage_bucket": "pet-adopt-adarsh-pasho.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186452207340:android:20341c4418997c615da7c9",
+        "android_client_info": {
+          "package_name": "com.example.pet_adopt_posha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCogpk6_FxUDXCl5ybjJy1HnrveT1iEoXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
