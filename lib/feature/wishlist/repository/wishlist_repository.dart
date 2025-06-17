@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class WishlistRepository {

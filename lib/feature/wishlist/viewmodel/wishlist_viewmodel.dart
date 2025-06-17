@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 import 'package:pet_adopt_posha/feature/wishlist/repository/wishlist_repository.dart';
 
 final wishlistRepositoryProvider = Provider<WishlistRepository>((ref) {

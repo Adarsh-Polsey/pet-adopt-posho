@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pet_adopt_posha/feature/history/repository/history_repository.dart';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 
 final historyRepositoryProvider = Provider<HistoryRepository>((ref) {
   return HistoryRepository();

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pet_adopt_posha/config/firestore_exceptions.dart';
 import 'package:pet_adopt_posha/feature/details/view/details_screen.dart';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 import 'package:pet_adopt_posha/shared/widgets/pet_widget.dart';
 
 class PetListSection extends StatelessWidget {

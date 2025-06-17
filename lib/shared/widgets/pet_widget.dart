@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 import 'package:pet_adopt_posha/shared/widgets/pet_image.dart';
 
 class PetWidget extends StatefulWidget {

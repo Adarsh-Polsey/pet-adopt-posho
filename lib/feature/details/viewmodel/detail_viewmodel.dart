@@ -4,7 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pet_adopt_posha/feature/details/repository/detail_repository.dart';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 
 final detailRepositoryProvider = Provider<DetailRepository>(
   (ref) => DetailRepository(FirebaseFirestore.instance),

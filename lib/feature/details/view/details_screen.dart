@@ -4,7 +4,7 @@ import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pet_adopt_posha/feature/details/viewmodel/detail_viewmodel.dart';
-import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/model/pet_model.dart';
 import 'package:pet_adopt_posha/utils/app_pallette.dart';
 import 'package:pet_adopt_posha/feature/details/view/widgets/custom_image_viewer.dart';
 import 'package:pet_adopt_posha/feature/details/view/widgets/custom_button.dart';
