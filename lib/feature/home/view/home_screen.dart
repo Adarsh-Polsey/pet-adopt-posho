@@ -4,7 +4,7 @@ import 'package:pet_adopt_posha/feature/home/view/widgets/category_tabs.dart';
 import 'package:pet_adopt_posha/feature/home/view/widgets/header_section.dart';
 import 'package:pet_adopt_posha/shared/widgets/petlist_section.dart';
 import 'package:pet_adopt_posha/feature/home/viewmodel/home_viewmodel.dart';
-import 'package:pet_adopt_posha/shared/widgets/custom_text_field.dart';
+import 'package:pet_adopt_posha/feature/home/view/widgets/custom_text_field.dart';
 
 class Home extends ConsumerStatefulWidget {
   const Home({super.key});

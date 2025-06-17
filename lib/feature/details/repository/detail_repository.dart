@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:pet_adopt_posha/config/firestore_exceptions.dart';
-import 'package:pet_adopt_posha/feature/home/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class DetailRepository {

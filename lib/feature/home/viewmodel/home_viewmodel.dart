@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pet_adopt_posha/config/firestore_exceptions.dart';
-import 'package:pet_adopt_posha/feature/home/model/pet_model.dart';
+import 'package:pet_adopt_posha/shared/widgets/model/pet_model.dart';
 import 'package:pet_adopt_posha/feature/home/repository/home_repository.dart';
 
 final homeRepositoryProvider = Provider<HomeRepository>(
